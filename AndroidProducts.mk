@@ -1,0 +1,5 @@
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/omni_TECNO-KH6.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_TECNO-KH6-eng
