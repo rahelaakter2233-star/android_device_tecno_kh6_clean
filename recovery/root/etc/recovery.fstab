@@ -1,0 +1,9 @@
+/system      ext4    /dev/block/mapper/system
+/system_ext  ext4    /dev/block/mapper/system_ext
+/vendor      ext4    /dev/block/mapper/vendor
+/product     ext4    /dev/block/mapper/product
+/data        f2fs    /dev/block/by-name/userdata    flags=display="Data";encryptable=footer
+/metadata    ext4    /dev/block/by-name/md_udc
+/boot        emmc    /dev/block/by-name/boot
+/dtbo        emmc    /dev/block/by-name/dtbo
+/vbmeta      emmc    /dev/block/by-name/vbmeta
