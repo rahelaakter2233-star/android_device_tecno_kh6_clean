@@ -1,0 +1,6 @@
+/system      ext4   /dev/block/mapper/system
+/system_ext  ext4   /dev/block/mapper/system_ext
+/vendor      ext4   /dev/block/mapper/vendor
+/product     ext4   /dev/block/mapper/product
+/data        f2fs   /dev/block/by-name/userdata
+/metadata    ext4   /dev/block/by-name/md_udc
